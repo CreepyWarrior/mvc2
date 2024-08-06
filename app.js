@@ -10,17 +10,17 @@ dotenv.config();
 mongoose.connect(process.env.url)
 
 .then(()=>{
-    console.log("La conexion con la base de datos funcion")
+    console.log("La base de datos jala")
 })
 .catch(()=>{
-    console.log("No funciono la conexion, verifica tu codigo")
+    console.log("No funciono la conexion")
 })
 
 const app = express();
 app.use(cors())
 
 app.listen(4000,() =>{
-    console.log("Mi servidor esta funcionando")
+    console.log("Funciona server")
 })
 
 test()

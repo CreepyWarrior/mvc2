@@ -1,12 +1,12 @@
 import {modelo} from '../models/Reprobados.model.js'
 
 export const test2 = () => {
-    console.log("llamando la funcion desde el servidor")
+    console.log("Servidor X jala")
 }
 
 modelo.create({
-    nombre:"Brandon",
-    apellidoP:"Martinez",
-    apellidoM:"Castillo",
+    nombre:"Diego",
+    apellidoP:"Palos",
+    apellidoM:"Padilla",
     promedio:"5"
 })

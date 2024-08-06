@@ -1,10 +1,9 @@
-import { modelo3 } from '../models/RemedialesPagados.model.js';
+import { modelo3 } from '../models/RemedialesPagados.model.js'
 
 export const test3 = () => {
-    console.log("llamando la funcion desde el servidor")
+    console.log("Servidor B jala ")
 }
 modelo3.create({
-    Alumno:"Brandon",
+    Alumno:"Diego Josue",
     Estatus:"Reprobado"
-
 })
